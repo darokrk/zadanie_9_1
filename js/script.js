@@ -1,7 +1,3 @@
-/*
-var a = prompt('Podaj wartosc A');
-var h = prompt('Podaj wartosc h');
-*/
 //start function
 
 function getTriangleArea(a, h) {
@@ -9,10 +5,10 @@ function getTriangleArea(a, h) {
 		return a*h/2;
 	}
 	else {
-		console.log('Nieprawidlowe dane');
-		alert('Nieprawidlowe dane');
+		return 'Nieprawidlowe dane';
 	}	
 }
+/* console.log(gettraingleArea(6, 10)); */
 
 var triangle1Area = getTriangleArea(-10, 15);
 var triangle2Area = getTriangleArea(5, 10);
